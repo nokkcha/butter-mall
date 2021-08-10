@@ -1,0 +1,62 @@
+
+
+body{
+    background-image: url(butter-1920670.png);
+    background-size:800px auto;
+    background-repeat: no-repeat;
+    background-position:center 150px;
+}
+
+header {
+    margin: 20px;
+}
+
+#title {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;;
+
+}
+
+.content img {
+    width: 100%;
+    z-index: -1;
+}
+
+.btn-dropdown {
+    border: none;
+    background:none;
+    font-size: 20px;
+}
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+}
+.content-dropdown {
+    margin-top: 10px;
+    display: none;
+}
+
+
+.content-dropdown a {
+    display: block;
+}
+
+.dropdown:hover .content-dropdown{
+    display: block;
+}
+
+.content-dropdown a:hover{
+    font-weight: bold;
+}
+
+.content p{
+    text-align: center;
+    position: relative;
+    top: 200px;
+    color: white;
+    font-size: 50px;
+    font-family: 'Cabin', sans-serif;
+}
