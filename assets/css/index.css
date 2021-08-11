@@ -1,0 +1,175 @@
+
+header {
+    width: 1000px;
+    position: sticky;
+    display: flex;
+    align-items: baseline;
+    justify-items: center;
+    margin: 40px;
+}
+
+nav { 
+    display: inline;
+    flex-direction: row-reverse;
+    word-spacing: 30px;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+
+
+#title{
+    margin: 0 0 0 50px;
+    flex-grow: 1;
+}
+
+#index-page {
+    margin: 40px;
+    width: 1000px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../pic1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#title-page {
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+#title-page h1 { 
+    margin: 100px 0 10px 20px;
+    font-weight: 600;
+    font-size: 30px;
+    color:white;
+}
+
+#title-page h6 { 
+    color: black;
+    margin: 0 0 0 20px;
+    font-weight: 200;
+}
+
+
+#btn-page {
+    display: flex;
+    align-items: baseline;
+    margin: 0 0 0 20px;
+    
+}
+
+#btn-page h6{
+    font-weight: 600;
+    color: white;
+}
+
+#btn-page h6:hover {
+    text-decoration-line:underline;
+}
+
+#btn-page button {
+    margin: 0 15px 0 0 ;
+}
+
+#content {
+    border: 1px solid red;
+    width: 1000px;
+    margin: 40px;
+}
+
+#content01 {
+    display: flex;
+    align-items: center;
+}
+
+#content01 img {
+    border: 1px solid green;
+    width: 350px;
+    height: auto;
+    flex-grow: 2;
+    
+}
+
+#content01 h2{
+    border: 1px solid red;
+    flex-grow: 1;
+}
+
+#price-page {
+    width: 1000px;
+    height: 600px;
+    border: 1px solid black;
+    margin: 40px;
+    text-align: center;
+}
+
+#price-page div{
+    display:inline;
+    background-color: gray;
+    width: 400px;
+    height: 300px;
+}
+
+#fnq-page {
+    width: 1000px;
+    height: 500px;
+    margin: 40px;
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fnq-page h1, #price-page h1 {
+    font-size: 30px;
+    color: #242F51;
+}
+
+.btn-nav {
+    display: inline;
+    border: 0;
+    border-radius: 20px;
+    background-color: #2807f9;
+    width: 120px;
+    height: 40px;
+    color: white;
+    margin: 0 60px 0 30px;
+}
+
+.btn-nav:hover{
+    background-color: #2d18b9;
+}
+
+.div01 {
+    background-color: #F5F7FA;
+    color: #242F51;
+    width: 700px;
+    height: 120px;
+    word-break: break-all;
+
+}
+
+.div02, .div03, .div04 {
+    background-color: #F5F7FA;
+    width: 700px;
+    height: 40px;
+    margin-top: 5px;
+    text-align:justify
+}
+
+.div02 h6, .div03 h6, .div04 h6 {
+    margin: 20px 50px 0 20px;
+}
+
+.div01 h6, h4{
+    text-align: left;
+    margin: 20px 50px 0 20px;
+}
