@@ -1,6 +1,3 @@
-body {
-    width: 1000px;
-}
 
 header {
     width: 1000px;
@@ -24,6 +21,20 @@ nav a {
     font-size: 12px;
 }
 
+footer {
+    height: 100px;
+    background-color: #303058;
+}
+
+footer h6 {
+    color: white;
+    display: inline;
+    position: relative;
+    left: 30px;
+    top: 50%;
+    font-size: 20px;
+    text-align: left;
+}
 
 #title{
     margin: 0 0 0 50px;
@@ -115,6 +126,7 @@ nav a {
     margin-top: 100px;
     text-align: center;
 }
+
 
 
 
